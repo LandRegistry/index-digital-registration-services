@@ -1,0 +1,85 @@
+
+{% extends "layout-index-brand.html" %}
+
+{% block pageTitle %}
+  template index
+{% endblock %}
+
+{% block content %}
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">Introduction<span class="govuk-visually-hidden"> to your service/product/project</span></h1>
+
+    <p>Describe the service/product/project</p>
+
+    <p>Describe what user and organisational needs it fulfills/is aiming to fulfill - what it's purpose is</p>
+
+    <p>Describe what phase/stage it's at, and some history</p>
+
+    <p>Give enough brief, clear, background and context to enable a designer (or anyone) who doesn't know what the thing is, to be able to be productive on day 1/week 1</p>
+
+    <p>Provide links to useful design assets and information like: the prototype(s), design decisions and alternate designs, design assets, assessments, user research findings, screenshots (gallery.io), analytics dashboard, backlog, show and tells, etc
+    </p>
+
+    <p>This index page should be public - so no sensitive or personal information.  But link to useful documents inside the Land Registry</p>
+
+    <p>This app isn't a rigid template - meet the need however you see fit.</p>
+
+    <p>The <a href="https://github.com/LandRegistry/index-template/blob/master/README.md">README file summarises the intention and 'rules'</a></p>
+
+    <p>Remember to change the page titles, links and visually hidden text in the app, the social-unfurl.png, and metadata in the includes/head-index-brand file, and the readme.md file.</p>
+
+    
+  </div>
+
+  <!----------   grid-row-one-third   --------->
+
+  <div class="govuk-grid-column-one-third">
+    <h2 class="govuk-heading-m">Further reading</h2>
+    <ul class="govuk-list govuk-body-s">
+      <li><a href="design">list of design assets</a></li>
+      <li>useful page</li>
+      <li>useful doc on google drive</li>
+    </ul>
+  </div>
+</div>
+
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-section-break--xl">
+    <div class="govuk-grid-column-one-third govuk-section-break--xl" align="center">
+      <img src="../../public/images/service-history.png" alt="Service History icon" height="56">
+      <div class="govuk-section-break--m"></div>
+      <h2 class="govuk-heading-m">Service History</h2>
+      <p>
+          A history showing all the previous prototype versions highlighting what has changed and why, linking in to
+          the user research that triggered the changes.
+      </p>
+    </div>
+
+    <div class="govuk-grid-column-one-third govuk-section-break--xl" align="center">
+      <img src="../../public/images/timeline.png" alt="Timeline icon" height="56">
+      <div class="govuk-section-break--m"></div>
+      <h2 class="govuk-heading-m">Timeline</h2>
+      <p>
+          What stage is the project in, how long will it be there, and when is the plan to move into the next stage.
+      </p>
+    </div>
+
+    <div class="govuk-grid-column-one-third govuk-section-break--xl" align="center">
+      <img src="../../public/images/assessments-2.png" alt="Assessments icon" height="56">
+      <div class="govuk-section-break--m"></div>
+      <h2 class="govuk-heading-m">Assessment</h2>
+      <p>
+          Have there been any assessments? Will there be an assessment, if so, when?
+      </p>
+      <a href="">Digital service standards</a>
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
