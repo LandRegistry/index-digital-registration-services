@@ -1,4 +1,4 @@
-# Introduction - what is the index?
+# Introduction - what is an index?
 
 Primarily for a design audience, to:
 
@@ -48,5 +48,6 @@ As a designer joining the project/service team I need to get up to speed with:
 
 ## To Do
 
-* come up with a better name / description of what this app is
+* review and improve version 1 (this version)
+* better description? for the github repo
 * consider other user needs - for example we believe this content to be useful outside of the design community
